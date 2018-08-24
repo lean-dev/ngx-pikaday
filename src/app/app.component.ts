@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ngx-pikaday';
+
+  hinflugDatum = new Date(2018,7,8);
+
+  show(d: Date) {
+    console.log(d);
+  }
 }
